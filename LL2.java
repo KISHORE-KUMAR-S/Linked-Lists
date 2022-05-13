@@ -3,7 +3,7 @@ class Node{
     int data;
     Node next;
 }
-class LinkedList{
+class LL2{
     Node head;
     public void addFirst(int value){
         Node newNode = new Node();
@@ -20,7 +20,7 @@ class LinkedList{
         }
     }
     public static void main(String args[]){
-        LinkedList ll = new LinkedList();
+        LL2 ll = new LL2();
         ll.addFirst(10);
         ll.addFirst(20);
         ll.addFirst(30);
