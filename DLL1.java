@@ -2,7 +2,7 @@ class Node{
     int data;
     Node prev, next;
 }
-class DoubleLinkedList{
+class DLL1{
     public static void main(String args[]){
         Node head, middle, tail;
         head = new Node();
